@@ -1,0 +1,6 @@
+arm-trusted-firmware (2.5-1) UNRELEASED; urgency=low
+
+  * Initial release. Closes: #nnnn
+    <nnnn is the bug number of your ITP>
+
+ -- kai <>  Sun, 23 Apr 2023 10:38:18 +0200
