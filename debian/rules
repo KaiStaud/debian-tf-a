@@ -9,7 +9,7 @@
 	dh $@  
 
 override_dh_build:
-	PLAT=stm32mp1 ARCH=aarch32 ARM_ARCH_MAJOR=7 AARCH32_SP=sp_min DTB_FILE_NAME=stm32mp157a-dk1.dtb STM32MP_SDMMC=1
+	make PLAT=stm32mp1 ARCH=aarch32 ARM_ARCH_MAJOR=7 AARCH32_SP=sp_min DTB_FILE_NAME=stm32mp157a-dk1.dtb STM32MP_SDMMC=1
 #override_dh_auto_install:
 #	dh_auto_install -- prefix=/usr
 
